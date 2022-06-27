@@ -5,11 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/EasePack.min.js"></script>
   <script src="script.js" defer></script>
+
+  <style>
+body, html {
+  font-family:sans-serif;
+  background: gold;
+  height:100%;
+  position:relative;
+  overflow:hidden;
+  margin:0;
+}
+
+.demo {
+  visibility:hidden;
+}
+
+.demo div {
+  position:absolute;
+  display:inline-block;
+  left:50%;
+  top:50%;
+  font-weight:800;
+  font-size:100px;
+  color:#1C70A7;
+  transform:translate(-50%, -50%);
+  width:100%;
+  text-align:center;
+}
+
+.footer {
+  position:fixed;
+  bottom:0;
+  padding:20px;
+}
+
+  </style>
 </head>
 <body>
-  <canvas></canvas>
+  <div class="demo">
+    
+  </div>
+  
 </body>
 </html>
