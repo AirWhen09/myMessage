@@ -1,5 +1,5 @@
 
-let phrases = ["Hello", "Good Day", "You are never too old", "to set another goal", " or to dream a new dream.  - C.S. Lewis", "Keep Safe!!", "-Erwin", "🙏👻"]
+let phrases = ["Hello", "Good Day", "You are never", "too old", "to set", "another goal", " or to dream ", "a new dream.  - C.S. Lewis", "Keep Safe!!", "-Erwin", "🙏👻"]
 let demo = document.querySelector(".demo")
 let animation = gsap.timeline({repeat:5, repeatDelay:0.3})
 
